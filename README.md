@@ -6,7 +6,7 @@
 - 화면 구성: UIkit(Code-Based → Snapkit, NSLayoutConstraints)
 - 디자인 패턴: CleanArchitecture, MVVM
 - 비동기 프로그래밍: Combine, Task
-- 네트워킹: URLSession
+- 네트워킹: URLSession, Moya
 - 애플 고유 프레임워크: Contacts
 - 사용툴: 노션, 깃, 피그마, Postman
 <br/>
