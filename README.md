@@ -1,31 +1,16 @@
-# 코딩 컨벤션
-코드는 
-[Swift API Design Guidelines](https://cozzin.gitbook.io/swift-api-design-guidelines/) 에 따라 작성합니다. 
+# 🗂️ 프로젝트 소개
+일상 속에서도 소중한 지인과의 관계를 이어나갈 수 있도록 **상황에 맞는 다양한 인사말을 추천**해 주기적으로 연락할 수 있도록 돕는 서비스입니다.
+<br/>
 
-# 브랜치 전략
-- `main` : 제품을 배포하는 브랜치입니다.
-- `develop` : 개발자들이 작업한 코드를 합치는 브랜치입니다.
-- `feat - 기능명` : 각각의 기능을 수행하는 브랜치입니다.
+# 🛠️ 기술 스택
+- 화면 구성: UIkit(Code-Based → Snapkit, NSLayoutConstraints)
+- 디자인 패턴: CleanArchitecture, MVVM
+- 비동기 프로그래밍: Combine, Task
+- 네트워킹: URLSession
+- 애플 고유 프레임워크: Contacts
+- 사용툴: 노션, 깃, 피그마, Postman
+<br/>
 
-## Branch protection rule
-- `main`
-  - Require a pull request before merging
-  - Force pushes are not allowed
 
-# 개인 개발 전략
-- 각 개발자는 repo 를 fork 해서 작업합니다.
-- 각자의 작업 내용은 본 repo의 develop 브랜치 대상으로 PR을 생성합니다.
-- 개발하고 있는 작업 내용을 Issue 에 생성하고 커밋 시에 Issue number 를 기재합니다.
-
-# commit 메시지 규칙
-
-|커밋 타입|기능|사용 예시|
-|:---|:---|:----|
-|feat  |새로운 기능 추가|feat: 화면 전환 기능을 추가했습니다.|
-|fix  |버그 수정|fix: 메인 화면에서 스크롤이 작동하지 않는 문제를 해결했습니다.|
-|refactor|리팩터링|refactor: MVC로 된 구조를 MVVM 구조로 리팩토링 했습니다.|
-|style  |코드 의미에 영향이 없는 변경 사항|style: print문 뒤에 오타난 ;를 제거하였습니다.|
-|docs|문서 수정|docs: readme 파일을 수정하였습니다.|
-|test|테스트 코드 작성|test: 테스트 코드를 작성해 수행하였습니다.|
-|chore|기타 사항|chore: Info.plist에 push notification과 관련된 설정을 변경하였습니다.|
-
+# 📱 주요 화면
+<img src = "https://github.com/JYPjoy/Waving-iOS/blob/master/screenshot.png?raw=true" width = "1000">
